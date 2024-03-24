@@ -28,6 +28,8 @@
 		7886ED532B9C90F700BEBF85 /* PlayerAppSelectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7886ED522B9C90F700BEBF85 /* PlayerAppSelectorViewModel.swift */; };
 		7886ED562B9D16C700BEBF85 /* TaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7886ED552B9D16C700BEBF85 /* TaskTableViewController.swift */; };
 		7886ED582B9D196C00BEBF85 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7886ED572B9D196C00BEBF85 /* TaskTableViewCell.swift */; };
+		789272EB2BB09BF30095C22D /* Poderes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789272EA2BB09BF30095C22D /* Poderes.swift */; };
+		789272ED2BB0A04B0095C22D /* HeroeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789272EC2BB0A04B0095C22D /* HeroeDTO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		7886ED522B9C90F700BEBF85 /* PlayerAppSelectorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerAppSelectorViewModel.swift; sourceTree = "<group>"; };
 		7886ED552B9D16C700BEBF85 /* TaskTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewController.swift; sourceTree = "<group>"; };
 		7886ED572B9D196C00BEBF85 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		789272EA2BB09BF30095C22D /* Poderes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Poderes.swift; sourceTree = "<group>"; };
+		789272EC2BB0A04B0095C22D /* HeroeDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroeDTO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +165,8 @@
 		7882168E2B9E250F00A307F1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				789272EA2BB09BF30095C22D /* Poderes.swift */,
+				789272EC2BB0A04B0095C22D /* HeroeDTO.swift */,
 				7882168F2B9E250F00A307F1 /* Heroe.swift */,
 			);
 			path = Model;
@@ -284,6 +290,7 @@
 				7886ED532B9C90F700BEBF85 /* PlayerAppSelectorViewModel.swift in Sources */,
 				788216942B9E250F00A307F1 /* HeroeLogic.swift in Sources */,
 				7886ED582B9D196C00BEBF85 /* TaskTableViewCell.swift in Sources */,
+				789272ED2BB0A04B0095C22D /* HeroeDTO.swift in Sources */,
 				788216992B9E250F00A307F1 /* JSONLoader.swift in Sources */,
 				788216A52B9E58A800A307F1 /* PlayerInteractor.swift in Sources */,
 				7886ED502B9C8CC300BEBF85 /* PlayerViewController+TableViewExtension.swift in Sources */,
@@ -296,6 +303,7 @@
 				7865E11D2B9B97B0000BDC55 /* AppDelegate.swift in Sources */,
 				7886ED562B9D16C700BEBF85 /* TaskTableViewController.swift in Sources */,
 				788216982B9E250F00A307F1 /* Heroe.swift in Sources */,
+				789272EB2BB09BF30095C22D /* Poderes.swift in Sources */,
 				7865E11F2B9B97B0000BDC55 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

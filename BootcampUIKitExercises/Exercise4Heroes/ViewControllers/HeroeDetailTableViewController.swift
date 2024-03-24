@@ -27,7 +27,7 @@ class HeroeDetailTableViewController: UITableViewController {
         nickname.text = selectedHeroe.apodo
         realName.text = selectedHeroe.nombreReal
         age.text = "\(selectedHeroe.edad) años"
-        superPowers.text = selectedHeroe.poderes.joined(separator: ",")
+        superPowers.text = selectedHeroe.poderes.map { $0.rawValue }.joined(separator: ", ")
         heroeDescription.text = selectedHeroe.descripcion
     }
 
